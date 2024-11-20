@@ -57,6 +57,7 @@ def f(**args):
     print(args)
 
 f(a=1, b=2)
+f(a=1, b=2)
 
 
 def f(a, *pargs, **kargs): # 1 is passed to a by position, 2 & 3 into pargs positional tuple and x & y into kargs by dict
